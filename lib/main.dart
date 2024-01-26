@@ -25,6 +25,13 @@ class wid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Container(
+        child: Text('Test',style: GoogleFonts.poppins(
+          fontSize: 200,
+          color: Colors.red
+        ),),
+      ),
+    );
   }
 }
