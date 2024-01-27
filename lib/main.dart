@@ -144,7 +144,7 @@ class _calState extends State<cal> {
         setState(() {
           var lastchar = _num[_num.length - 1];
           
-          if (_num.length >= 1) {
+          if (_num.length > 1) {
             _operation = txt;
             _count++;
             if (lastchar == '%' ||
